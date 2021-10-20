@@ -103,75 +103,38 @@
                                                     </div>
                                                 </div>
                                                 <!-- ANIMATED CHARTS -->
-                                                <section class="container">
-                                                    <!-- Photoshop Chart -->
-                                                    <figure class="chart" data-percent="100">
-                                                      <figcaption>Ps</figcaption>
-                                                       <img class="photoshop" src="/img/icons/Ps-normal.svg">
-                                                      <svg width="200" height="200">
-                                                        <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                      </svg>
-                                                    </figure>
-                                                    <!-- Illustrator Chart -->
-                                                    <figure class="chart" data-percent="100">
-                                                        <figcaption>Ai</figcaption>
-                                                         <img class="illustrator" src="/img/icons/Ai-normal.svg">
-                                                        <svg width="200" height="200">
-                                                          <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                        </svg>
-                                                    </figure>
-                                                    <!-- Indesign Chart -->
-                                                    <figure class="chart" data-percent="88">
-                                                        <figcaption>Id</figcaption>
-                                                         <img class="indesign" src="/img/icons/Id-normal.svg">
-                                                        <svg width="200" height="200">
-                                                          <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                        </svg>
-                                                    </figure>
-                                                     <!-- AfterEffects Chart -->
-                                                     <figure class="chart" data-percent="75">
-                                                        <figcaption>Ae</figcaption>
-                                                         <img class="aftereffects" src="/img/icons/Ae-normal.svg">
-                                                        <svg width="200" height="200">
-                                                          <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                        </svg>
-                                                    </figure>
-                                                    
+
+
+                                                <section class="chart-container">
+                                                    <span class="chart chart-ps" data-percent="100">
+                                                        <img src="img/icons/Ps-normal.svg" alt="Photoshop Icon">
+                                                    </span>
+                                                    <span class="chart chart-ai" data-percent="100">
+                                                        <img src="img/icons/Ai-normal.svg" alt="Illustrator Icon">
+                                                    </span>
+                                                    <span class="chart chart-id" data-percent="90">
+                                                        <img src="img/icons/Id-normal.svg" alt="Indesign Icon">
+                                                    </span>
+                                                    <span class="chart chart-ae" data-percent="80">
+                                                        <img src="img/icons/Ae-normal.svg" alt="After Effects Icon">
+                                                    </span>
                                                 </section>
-                                                <section class="container"> 
-                                                    <!-- Xd -->
-                                                    <figure class="chart" data-percent="63">
-                                                        <figcaption>Xd</figcaption>
-                                                         <img class="xd" src="/img/icons/Xd-normal.svg">
-                                                        <svg width="200" height="200">
-                                                          <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                        </svg>
-                                                    </figure>
-                                                    <!-- Figma Chart -->
-                                                    <figure class="chart" data-percent="50">
-                                                        <figcaption>Fg</figcaption>
-                                                         <img class="figma" src="/img/icons/Figma.svg">
-                                                        <svg width="200" height="200">
-                                                          <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                        </svg>
-                                                    </figure>
-                                                    <!-- HTML Chart -->
-                                                    <figure class="chart" data-percent="25">
-                                                        <figcaption>html</figcaption>
-                                                         <img class="html" src="https://dl.dropboxusercontent.com/s/68gv23q4y5qyq52/html5.svg">
-                                                        <svg width="200" height="200">
-                                                          <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                        </svg>
-                                                    </figure>
-                                                    <!-- CSS Chart -->
-                                                    <figure class="chart" data-percent="25">
-                                                        <figcaption>css</figcaption>
-                                                         <img class="css" src="https://dl.dropboxusercontent.com/s/gftbpqje9h2jvlv/css3.svg">
-                                                        <svg width="200" height="200">
-                                                          <circle class="outer" cx="140" cy="50" r="31" transform="rotate(-90, 95, 95)"/>
-                                                        </svg>
-                                                    </figure>
+
+                                                <section class="chart-container">
+                                                    <span class="chart chart-xd" data-percent="60">
+                                                        <img src="img/icons/Xd-normal.svg" alt="Xd Icon">
+                                                    </span>
+                                                    <span class="chart chart-fg" data-percent="50">
+                                                        <img src="img/icons/Figma.svg" alt="Figma Icon">
+                                                    </span>
+                                                    <span class="chart chart-html" data-percent="40">
+                                                        <img src="https://dl.dropboxusercontent.com/s/68gv23q4y5qyq52/html5.svg" alt="HTML5 Icon">
+                                                    </span>
+                                                    <span class="chart chart-css" data-percent="40">
+                                                        <img src="https://dl.dropboxusercontent.com/s/gftbpqje9h2jvlv/css3.svg" alt="CSS Icon">
+                                                    </span>
                                                 </section>
+
                                                 <div class="kl-credit">
                                                     <p>©2021 Klemen Lazarevič. Made using <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> framework and <a href="https://github.com/alvarotrigo/fullPage.js/#fullpagejs" target="_blank">fullPage.js</a></p>
                                                 </div>
@@ -678,5 +641,156 @@
     </script> -->
     <!-- script app.js -->
     <script src="/js/app.js" defer></script>
+
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+	<script>
+    $(function() {
+      $('.chart-ps').easyPieChart({
+        barColor: '#31a8ff',
+        scaleColor: '#ffffff',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+    $(function() {
+      $('.chart-ai').easyPieChart({
+        barColor: '#ff9a00',
+        scaleColor: '#000000',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+    $(function() {
+      $('.chart-id').easyPieChart({
+        barColor: '#ff3366',
+        scaleColor: '#000000',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+    $(function() {
+      $('.chart-ae').easyPieChart({
+        barColor: '#9999ff',
+        scaleColor: '#000000',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+    $(function() {
+      $('.chart-xd').easyPieChart({
+        barColor: '#ff61f6',
+        scaleColor: '#000000',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+    $(function() {
+      $('.chart-fg').easyPieChart({
+        barColor: '#09cf83',
+        scaleColor: '#000000',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+    $(function() {
+      $('.chart-html').easyPieChart({
+        barColor: '#e34f26',
+        scaleColor: '#000000',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+    $(function() {
+      $('.chart-css').easyPieChart({
+        barColor: '#0c84ce',
+        scaleColor: '#000000',
+        trackColor: '#153944',
+        scaleLength: 0,
+        lineCap: 'round',
+        size: 70,
+        lineWidth: 3,
+        easing: function (x, t, b, c, d) { // easing function
+          t = t / (d/2);
+          if (t < 1) {
+            return c / 2 * t * t + b;
+          }
+          return -c/2 * ((--t)*(t-2) - 1) + b;
+        }
+      });
+    });
+	</script>
+
 </body>
 </html>
