@@ -373,9 +373,9 @@ https://oreillymedia.github.io/Using_SVG/extras/ch07-textpaths.html */
 
 
 /* @min-width: 575px */
-.firstSection .kl-list {
-  /* margin-bottom: 2.5rem; */
-}
+/* .firstSection .kl-list {
+  margin-bottom: 2.5rem;
+} */
 @media (max-width: 32.5rem) {
   .firstSection .kl-list {
     margin-bottom: 0;
